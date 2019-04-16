@@ -24,14 +24,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="336dp"
+        android:layout_marginTop="300dp"
         android:layout_marginEnd="8dp"
         android:elevation="6dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:layout_width="wrap_content"
@@ -51,7 +50,6 @@
     </LinearLayout>
 
     <ImageView
-        android:translationY="-700dp"
         android:id="@+id/bgapp"
         android:layout_width="526dp"
         android:layout_height="900dp"
